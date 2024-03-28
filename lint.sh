@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ------------
-yarn markuplint 'doc/**/*.html' --fix
+yarn markuplint 'docs/**/*.html' --fix
 echo
 
 echo ------------

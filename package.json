@@ -8,8 +8,8 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "lint:css": "stylelint \"doc/*.css\" --fix",
-    "lint:scss": "stylelint \"doc/*.scss\" --fix"
+    "lint:css": "stylelint \"docs/*.css\" --fix",
+    "lint:scss": "stylelint \"docs/*.scss\" --fix"
   },
   "devDependencies": {
     "markuplint": "^4.4.0",
