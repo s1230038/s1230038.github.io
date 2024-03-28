@@ -1,0 +1,19 @@
+.class01 {         /* セレクタと中括弧の間にスペースを入れる */
+    opacity: 0.75;   /* 小数にはゼロをつける */
+  }
+  
+  .class02, 
+  .class03,
+  .class04 {          /* 1行に1セレクタ */
+    line-height: 1.6; /* line-heightには単位をつけない */
+  }
+  
+  /* インデントはスペース2個 */
+  .class05 {
+    background-color: #FF6F61;
+    opacity: 0.75;
+  
+    &:hover {        /* ネストする場合は、一行空ける */
+      opacity: 1;
+    }
+  }
