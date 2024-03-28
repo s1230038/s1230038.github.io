@@ -6,5 +6,8 @@
   "repository": "https://github.com/s1230038/s1230038.github.io.git",
   "author": "Haru on Acer PC <s1230038uaizuacjp@gmail.com>",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "markuplint": "^4.4.0"
+  }
 }
