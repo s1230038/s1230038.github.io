@@ -8,7 +8,8 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "lint:html": "yarn markuplint 'src/**/*.html --fix'"
+    "lint:html": "yarn markuplint 'src/**/*.html'",
+    "format:html": "yarn markuplint 'src/**/*.html --fix'"
   },
   "devDependencies": {
     "markuplint": "^4.4.0"
