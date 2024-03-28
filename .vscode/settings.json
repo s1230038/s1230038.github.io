@@ -1,4 +1,9 @@
 {
+    // HTMLファイルに限定して設定する場合
+    "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+    },
     "cSpell.words": [
         "Haru",
         "markuplint"
