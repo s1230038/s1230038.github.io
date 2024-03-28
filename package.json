@@ -7,6 +7,10 @@
   "author": "Haru on Acer PC <s1230038uaizuacjp@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
+  "scripts": {
+    "lint:css": "stylelint \"src/*.css\" --fix",
+    "lint:scss": "stylelint \"src/*.scss\" --fix"
+  },
   "devDependencies": {
     "markuplint": "^4.4.0",
     "stylelint": "16.3.1",
