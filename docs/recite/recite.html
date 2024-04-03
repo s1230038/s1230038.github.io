@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="content-script-type" content="text/javascript">
+		<link rel="stylesheet" type="text/css" href="recite.css">
+		<title>英文暗唱支援アプリ</title>
+		<script type="text/javascript" src="filter.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109572615-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-109572615-1');
+    </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8170054122978169",
+        enable_page_level_ads: true
+      });
+    </script>
+	</head>
+	<body>
+	  <h1>英文暗唱支援アプリ</h1>
+    <p>英文を下のテキストボックスに貼り付けてから、以下のボタンを押してください。</p>
+		<form id="recite_form">
+			<p>隠し方<br>
+			<input type="radio" name="display" value="visible_all"             onclick="exe_filter()" id="display1" checked /><label for="display1"> 全て表示</label>
+			<input type="radio" name="display" value="invisible_without_first" onclick="exe_filter()" id="display2"         /><label for="display2"> 先頭文字以外を隠す</label>
+			<input type="radio" name="display" value="invisible_all"           onclick="exe_filter()" id="display3"         /><label for="display3"> 全文字を隠す</label>
+			<br>
+			<input type="radio" name="display" value="invisible_brackets"      onclick="exe_filter()" id="display4"         /><label for="display4"> [ ]内を隠す（クリックする前にカッコで括っておく）</label>
+			</p>
+			<p>隠す対象<br>
+			<input type="radio" name="words" value="multi3" onclick="exe_filter()" id="words1" disabled="disabled" checked /><label for="words1"> ３の倍数番目</label>
+			<input type="radio" name="words" value="odd"    onclick="exe_filter()" id="words2" disabled="disabled"         /><label for="words2"> 奇数番目</label>
+			<input type="radio" name="words" value="even"   onclick="exe_filter()" id="words3" disabled="disabled"         /><label for="words3"> 偶数番目</label>
+			<input type="radio" name="words" value="all"    onclick="exe_filter()" id="words4" disabled="disabled"         /><label for="words4"> 全単語</label>
+			</p>
+			<p><input type="reset" value="リセット" /><br>
+			</p>
+			<textarea id="text_area" rows="20" cols="60"></textarea>
+			<textarea id="original_text" style="display:none;"></textarea>
+		</form>
+	</body>
+</html>
