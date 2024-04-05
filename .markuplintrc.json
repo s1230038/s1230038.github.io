@@ -1,5 +1,13 @@
 {
     "extends": [
       "markuplint:recommended-static-html"
+    ],
+    "nodeRules": [
+      {
+        "selector": ".GoogleTag",
+        "rules": {
+          "required-attr": false
+        }
+      }
     ]
 }
